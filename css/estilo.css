@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2? family= Mukta:wght@200;500 & family= Roboto:wght@900 & family= Ubuntu:ital,wght@0,300;0,400; 0,500;0,700;1,300;1,400;1,500;1,700 & display=trocar');
+
+.titulo {
+ color:black
+}
+
+body {
+    margin:0%;
+    padding:0%;
+    font-family: mukta, poppin;
+    color:black
+}
+
+.header {
+    height:1000px;
+    width:1350px;
+    background-color:cornsilk
+}
