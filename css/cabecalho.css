@@ -8,27 +8,60 @@ body{
     display: flex;
     margin: 3px;
     flex: 1 1 100vw;
-    background: #DADADA;
+    background: #a09696;
     flex-wrap: wrap;
 }
 
+.foto{
+ border-radius: 50%;
+ width: 200px;
+ height: 200px;
+ z-index: 9999;
+ position: absolute;
+
+}
+   .imagemperfi {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-block-end: 100px;
+   }
+
 header {
+    
 display: flex;
+justify-content: center;
 margin:  3px;
 flex: 1 1 100vw;
-background: #afadac;
-height: 67px;
+background: #a09696;
+height: 70px;
 width: 1919px;
 }
 
+.foto1{
+    display:flex;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.navegador{
+    margin-right: 400px;
+}
 nav{
+    top: 0px;
+left: 1px;
+width: 1700px;
+height: 38px;
 display: flex;
 margin: 3px;
-flex: 1 1 100vw;
-background: #4A2B20;
-justify-content: space-around;
+background: #814b35;
+justify-content:right;
 align-items: left;
-text text-decoration: flex-end;
+text-decoration: flex-end;
+tex
 }
 
 nav a{
@@ -37,25 +70,29 @@ nav a{
 }
 
 main{
+margin: 0px;
+flex: 1 1 1000vw;
 display: flex;
-margin: 3px;
-flex: 20 1 500px;
 background: #f8f4f3;
-height: calc(100vh - 224px);
+height: calc(70vh - 80px);
+text-align: center;
+
 }
 
 aside{
 display: flex;
 margin: 3px;
-flex: 1 1 200PX;
-background: #4A2B20;
+flex: 1 1 100vw;
+background: #f8f4f3;
+width: 100px;
+height: 100px;
 }
 
 footer{
 display: flex;
 margin: 3px;
-flex: 1 1 100vw;
-background: #4A2B20;
+flex: 1 1 2010vw;
+background: #814b35;
 height: 100px;
 }
 @media only screen and (max-width: 923px){
