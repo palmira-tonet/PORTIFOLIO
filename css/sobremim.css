@@ -1,0 +1,23 @@
+.sobremim {
+    max-width: 1200px;
+    padding: 35px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.foto {
+    border-radius: 300%;
+    width: 400px;
+    height: 400px;
+
+}
+
+.h6 {
+    color: chocolate;
+}
+
+.sobremim {
+    text-align: justify;
+}
