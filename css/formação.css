@@ -1,0 +1,20 @@
+.formação {
+background: #c6D29F;
+max-width: 1300px;
+padding: 35px 20px;
+margin: 0 auto;
+display: grid;
+
+
+}
+
+ .texto2 {
+    color: rgb(104, 107, 107);
+    align-items: center;
+    border-left: 5px solid #000;
+    padding: 5px;
+    border-radius: 20px;
+
+  
+ }
+   
