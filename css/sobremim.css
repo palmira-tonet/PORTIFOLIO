@@ -5,19 +5,36 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
+    text-align: justify;
 }
 
 .foto {
     border-radius: 300%;
     width: 400px;
     height: 400px;
+    position: relative;
+    
 
 }
 
+.link {
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   position: absolute;
+   left: 120px;
+   bottom: 65px;
+}
+
+.git {
+    width: 55px;
+    height: 55px;
+    border-radius: 70px;
+    position: absolute;
+    left: 220px;
+    bottom: 60px;
+}
 .h6 {
     color: chocolate;
 }
 
-.sobremim {
-    text-align: justify;
-}
