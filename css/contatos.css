@@ -2,6 +2,41 @@
 background: #000;
 }
 
+.cont {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+    padding: 130px;
+
+}
+
 .titulo{
+    color: aliceblue;
+}
+
+.formulario {
+
+    max-width: 100px;
+    padding: 35px 20px;
+    margin: 0 auto;
+    display: grid;
+    color: aliceblue;
+}
+
+
+.bot {
+
+    margin: auto;
+    display: grid;
+    
+}
+
+#mensagem {
+    height: 50px;
+}
+
+
+.oi {
     color: aliceblue;
 }
