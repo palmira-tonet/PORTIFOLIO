@@ -36,3 +36,7 @@ background: #c7e2cf;
 .oi {
     color: #000;
 }
+
+.erro {
+    visibility:visible;
+}

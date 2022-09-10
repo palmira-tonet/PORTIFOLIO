@@ -168,23 +168,21 @@
 
 
                 <div>
-                    <form>
+                    <form id="form">
                         <fieldset class="formulario">
                             <div>
                                 <label>Nome</label>
-                                <input type="text" name="Nome" id="nome">
-                            </div>
-                            <div>
+                                <input type="text" name="Nome" required="true" id="nome">
+
                                 <label>Email</label>
                                 <input type="email" name="email" required="true" id="email">
-                            </div>
-                            <div>
+
                                 <label for="assunto">Assunto</label>
-                                <input type="text" name="assunto" id="Assunto">
-                            </div>
-                            <div>
+                                <input type="text" name="assunto" required="true" id="Assunto">
+
                                 <label>Mensagem</label>
                                 <input type="text" name="mensagem" id="mensagem">
+                                <small class="erro"></small>
                             </div>
                         </fieldset>
                         <br>
@@ -198,7 +196,7 @@
         </section>
 
     </footer>
-
+    <script src="index.js"></script>
 </body>
 
 </html>
