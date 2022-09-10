@@ -16,18 +16,15 @@
 
 <body class="content" id="pag">
 
-    <header class="imagemperfil">
-
+    <header>
+        <img src="img1.png" alt="" class="foto1">
         <nav>
-            <div>
-                <img src="img1.png" alt="" class="foto1">
-            </div>
             <ul class="menu">
                 <li><a href="Apresentação">Apresentação</a></li>
-                <li><a href="Formação">Formação</a></li>
-                <li><a href="ExperiÊcia">Experiência</a></li>
-                <li><a href="Projetos">Projetos</a></li>
-                <li><a href="Fale comigo">Fale comigo</a></li>
+                <li><a href="/HTML/formação.html">Formação</a></li>
+                <li><a href="./experiencia.html">Experiência</a></li>
+                <li><a href="./projetos.html">Projetos</a></li>
+                <li><a href="./contatos.html">Contatos</a></li>
             </ul>
 
         </nav>
@@ -93,6 +90,7 @@
             <h6>Centro de Formação Bom Futuro</h6>
             <p>2012</p>
         </div>
+        <br>
 
         <div class="texto2">
             <h3>Química</h3>
@@ -106,8 +104,10 @@
             <h6>Universidade da Integração Internacional da Lusofonia Afro-Brasileira</h6>
             <p>2018-2022</p>
         </div>
+        <br>
 
     </section>
+
 
     <section class="Experiência">
         <div class="exp">
@@ -126,63 +126,78 @@
         <div class="exp1">
             <h3>Estágios voluntários extracurrilar de enfermagem</h3>
         </div>
+        <br>
 
         <div class="exp1">
             <h3>Pesquisadra na FOCRUZ-CE(bolsista)</h3>
         </div>
+        <br>
 
     </section>
 
     <section class="Projetos">
-        <div class="proj">
-            <br>
-            <span>
-                <h2>PROJETOS</h2>
-            </span>
-            </br>
+        <span class="sp">
+            <h2>PROJETOS</h2>
+        </span>
 
+        <div class="proj">
+
+            <a href="https://github.com/palmira-tonet/RECEITA-DE-PALMIRA"><img class="projeto" src="foto1.jpeg" width="200" height="200" alt="foto"></a>
+            <br>
+            <a href="https://github.com/palmira-tonet/MEU-SITE"><img class="mira" src="mira.jpeg" alt="image" width="200" height="200">
+            </a>
         </div>
     </section>
 
-
-    <section class="contatos">
-        <div class="cont">
-            <br>
-            <span>
-                <h2 class="titulo">CONTATOS</h2>
-                <p class="oi">Quer entrar em contat comigo?
-                    <br>
-                    Preencha o formulário ao lado e respondo o mais apido possível
-                </p>
-            </span>
-            <div>
-                <form>
-                    <fieldset class="formulario">
-                        <div>
-                            <label>Nome</label>
-                            <input type="text" name="Nome" id="nome">
-                        </div>
-                        <div>
-                            <label>Email</label>
-                            <input type="text" name="email" id="email">
-                        </div>
-                        <div>
-                            <label>Assunto</label>
-                            <input type="text" name="assunto" id="Assunto">
-                        </div>
-                        <div>
-                            <label>Mensagem</label>
-                            <input type="text" name="mensagem" id="mensagem">
-                        </div>
-                    </fieldset>
-                </form>
+    <footer>
+        <section class="contatos">
+            <div class="cont">
                 <br>
-                <button class="bot" id="botão" type="submit">Enviar</button>
+                <span>
+                    <h2 class="titulo">CONTATOS</h2>
+                    <p class="oi">Quer entrar em contat comigo?
+                        <br>
+                        Preencha o formulário ao lado e respondo o mais apido possível
+                        <br>
+                        Você também pode me encontrar nas redes sociais.
+                    </p>
+                    <br>
+                    <a href="https://instagram.com/p/Ca7kG20uDq3/?igshid=ODBkMDk1MTU="><img src="inst.png" alt="inst" width="40" height="40"></a>
+                </span>
+
+
+
+                <div>
+                    <form>
+                        <fieldset class="formulario">
+                            <div>
+                                <label>Nome</label>
+                                <input type="text" name="Nome" id="nome">
+                            </div>
+                            <div>
+                                <label>Email</label>
+                                <input type="email" name="email" required="true" id="email">
+                            </div>
+                            <div>
+                                <label for="assunto">Assunto</label>
+                                <input type="text" name="assunto" id="Assunto">
+                            </div>
+                            <div>
+                                <label>Mensagem</label>
+                                <input type="text" name="mensagem" id="mensagem">
+                            </div>
+                        </fieldset>
+                        <br>
+                        <button class="bot" id="botão" type="submit">Enviar</button>
+                    </form>
+                    <br>
+                </div>
+
             </div>
 
-        </div>
+        </section>
 
-    </section>
+    </footer>
 
 </body>
 

@@ -1,9 +1,11 @@
+@import './reset.css';
+
 header {
-width: 1200px;
-height: 100px;
-padding: 9px 100px;
+max-width: 1200px;
+padding: 10px 100px;
 margin: 0 auto;
-background: #c6D29F;
+background: #c7e2cf;
+display: flex;
 justify-content: space-between;
 align-items: center;
 }
@@ -11,32 +13,22 @@ align-items: center;
 .menu {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content:right;
-    font-size: 16pt;
+    gap: 20px;
+    justify-content:center;
+    font-size: 1rem;
     line-height: 1, 30rem;
-    padding: 10px 5px;
-    margin: -2%;
-    color:#C6d29F ;
+    padding: 15px 2px;
+    color:#a3e2ca ;
 }
 
-
-
-
-.menu a {
-    justify-content: center;
-    padding: 10px 10px;
-    margin: 0 auto;
-    color: black;
+.menu a {   
     text-decoration: none;
-  
+    color: black;
 }
 
 .foto1 {
     border-radius: 50%;
     width: 40px;
-    height: 40px;
-    
-   
-    
+    height: 40px; 
 }
+

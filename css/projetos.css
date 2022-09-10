@@ -1,11 +1,32 @@
+@import './reset.css';
+
 .Projetos{
-    background: #bfc4b3;
+    background: #dfede0;
     max-width: 1300px;
-    padding: 35px 20px;
-    margin: 0 auto;
+    padding: 10px 100px;
+    margin: 0;
     display: grid;
+    
+
    
 
   
 }
+
+.projeto {
+    border-radius: 20px 100px;
+    filter: drop-shadow(5px 5px 4px #515151);
+}
+
+.mira {
+    border-radius: 20px 100px;
+    filter: drop-shadow(5px 5px 4px #515151);
+}
   
+.proj {
+    display: flex;
+    gap: 20px;
+}
+.sp {
+    padding: 20px;
+}

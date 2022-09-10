@@ -1,11 +1,12 @@
 .sobremim {
     max-width: 1300px;
-    padding: 35px 20px;
-    margin: 0 auto;
+    padding: 15px 100px;
+    margin: 0;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
     text-align: justify;
+    align-items: center;
 }
 
 .foto {
@@ -22,17 +23,18 @@
    height: 50px;
    border-radius: 50px;
    position: absolute;
-   left: 120px;
-   bottom: 65px;
+   left: 200px;
+   bottom: 165px;
 }
+
 
 .git {
     width: 55px;
     height: 55px;
-    border-radius: 70px;
+    border-radius: 60px;
     position: absolute;
-    left: 220px;
-    bottom: 60px;
+    left: 320px;
+    bottom: 160px;
 }
 .h6 {
     color: chocolate;
